@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pagina para poder ser parte de la comunidad ingresando sus datos correspondientes para su cuenta">
+  <meta name="author" content="Ernesto Henríquez">
+  <meta name="generator" content="Hecho a mano por Ernesto Hrz">
+  <title>Sigin PsyTrip</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/psycho-personal-use" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: black;
+      position: relative;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('../img/wallpaper\ sing.gif');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      filter: blur(5px);
+      z-index: -1;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    strong.fs-1 {
+      color: #ffffff;
+      font-family: 'PSYCHO PERSONAL USE', sans-serif;
+      font-size: 4rem !important;
+    }
+
+    .btn-primary {
+      color: #ffffff;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+      color: #ffffff;
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+
+  <link href="../css/signin.css" rel="stylesheet">
+</head>
+<body class="text-center">
+  <main class="form-signin">
+    <form>
+      <a href="index.html" class="text-dark text-decoration-none">
+        <strong class="fs-1" style="font-family: 'PSYCHO PERSONAL USE', sans-serif; font-size: 4rem !important;">
+          PSY TRIP
+        </strong>
+      </a>
+      
+
+      <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2025 Ernesto Henríquez</p>
+    </form>
+  </main>
+</body>
+</html>
